@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get "pages1/home"
+  get "pages1/about"
+  get "pages1/contact"
   get "pages/home"
   get "pages/about"
   get "pages/contact"
